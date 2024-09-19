@@ -1,0 +1,93 @@
+{
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "assistant": {
+    "enabled": true,
+    "button": true,
+    "default_width": 680,
+    "default_height": 320,
+    "dock": "right",
+    "default_model": {
+      "provider": "ollama",
+      "model": "llama3.1:8b"
+    },
+    "version": "2"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Andromeda"
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "dock": "bottom",
+    "env": {},
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_features": {},
+    "font_size": 16,
+    "option_as_meta": true,
+    "button": false,
+    "shell": "system",
+    "toolbar": {
+      "title": true
+    },
+    "working_directory": "current_project_directory"
+  },
+  "project_panel": {
+    "button": true,
+    "default_width": 240,
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 15,
+    "auto_reveal_entries": true,
+    "auto_fold_dirs": true
+  },
+  "scrollbar": {
+    "show": "system",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_symbol": true,
+    "diagnostics": false
+  },
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "typeCheckingMode": "off"
+        }
+      }
+    }
+  }
+}
